@@ -1,7 +1,13 @@
 Kurulum
 1. Projeyi klonla
 2. Environment dosyasını oluştur
-3. Docker ile sistemi ayağa kaldır
+3. Frontend bağımlılıklarını kur ve build al
+4. Docker ile sistemi ayağa kaldır
+   
+cd frontend 
+npm install 
+npm run build 
+cd ..
 docker compose up -d --build
 
 Uygulama Adresleri
